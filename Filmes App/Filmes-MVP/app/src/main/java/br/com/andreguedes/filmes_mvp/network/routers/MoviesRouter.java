@@ -3,7 +3,7 @@ package br.com.andreguedes.filmes_mvp.network.routers;
 import java.util.List;
 
 import br.com.andreguedes.filmes_mvp.contracts.MVP;
-import br.com.andreguedes.filmes_mvp.database.model.Movie;
+import br.com.andreguedes.filmes_mvp.pojo.Movie;
 import br.com.andreguedes.filmes_mvp.network.api.API;
 import retrofit2.Call;
 import retrofit2.Callback;

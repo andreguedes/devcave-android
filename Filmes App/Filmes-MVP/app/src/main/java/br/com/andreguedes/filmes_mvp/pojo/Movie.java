@@ -1,4 +1,4 @@
-package br.com.andreguedes.filmes_mvp.database.model;
+package br.com.andreguedes.filmes_mvp.pojo;
 
 import java.util.List;
 

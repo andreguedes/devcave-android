@@ -12,7 +12,7 @@ import java.util.List;
 
 import br.com.andreguedes.filmes_mvp.R;
 import br.com.andreguedes.filmes_mvp.helpers.ImageHelper;
-import br.com.andreguedes.filmes_mvp.database.model.Movie;
+import br.com.andreguedes.filmes_mvp.pojo.Movie;
 
 /**
  * Created by andreguedes on 25/06/17.

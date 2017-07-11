@@ -2,7 +2,7 @@ package br.com.andreguedes.filmes_mvp.network.api;
 
 import java.util.List;
 
-import br.com.andreguedes.filmes_mvp.database.model.Movie;
+import br.com.andreguedes.filmes_mvp.pojo.Movie;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

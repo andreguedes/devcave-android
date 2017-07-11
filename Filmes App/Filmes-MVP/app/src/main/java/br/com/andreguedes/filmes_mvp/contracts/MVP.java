@@ -2,7 +2,7 @@ package br.com.andreguedes.filmes_mvp.contracts;
 
 import java.util.List;
 
-import br.com.andreguedes.filmes_mvp.database.model.Movie;
+import br.com.andreguedes.filmes_mvp.pojo.Movie;
 
 /**
  * Created by andreguedes on 26/06/17.

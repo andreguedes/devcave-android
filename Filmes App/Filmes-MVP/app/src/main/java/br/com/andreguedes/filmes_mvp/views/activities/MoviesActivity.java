@@ -10,7 +10,7 @@ import java.util.List;
 
 import br.com.andreguedes.filmes_mvp.R;
 import br.com.andreguedes.filmes_mvp.contracts.MVP;
-import br.com.andreguedes.filmes_mvp.database.model.Movie;
+import br.com.andreguedes.filmes_mvp.pojo.Movie;
 import br.com.andreguedes.filmes_mvp.presenters.MoviePresenter;
 import br.com.andreguedes.filmes_mvp.views.adapters.MoviesAdapter;
 
