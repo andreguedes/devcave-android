@@ -72,4 +72,13 @@ public class Movie {
         this.id = id;
     }
 
+    // TESTS
+    public boolean isBasicValuesDifferentOfEmpty() {
+        return getTitle().isEmpty() && getOverview().isEmpty() && getDuration().isEmpty() && getReleaseYear().isEmpty() && getCoverUrl().isEmpty() && getId().isEmpty();
+    }
+
+    public boolean isBackdropsUrlMoreThanTwo() {
+        return getBackdropsUrl().size() > 2;
+    }
+
 }
