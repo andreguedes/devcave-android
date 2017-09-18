@@ -1,5 +1,7 @@
 package br.com.andreguedes.filmes_mvp.pojo;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
@@ -8,12 +10,19 @@ import java.util.List;
 
 public class Movie {
 
+    @SerializedName("title")
     private String title;
+    @SerializedName("overview")
     private String overview;
+    @SerializedName("duration")
     private String duration;
+    @SerializedName("release_year")
     private String releaseYear;
+    @SerializedName("cover_url")
     private String coverUrl;
+    @SerializedName("backdrops_url")
     private List<String> backdropsUrl = null;
+    @SerializedName("id")
     private String id;
 
     public String getTitle() {
